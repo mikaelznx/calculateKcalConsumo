@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora de calorias para ganho de peso</title>
+    <link rel="stylesheet" type="text/css" href="code.css">
+  </head>
+  <body>
+    <h1>Calculadora de calorias - Gilwesley</h1>
+    <div id="form-container">
+      <form id="calorie-form">
+        <div class="form-group">
+          <label for="age">Idade:</label>
+          <input type="number" id="age" required>
+        </div>
+        <div class="form-group">
+          <label for="activity-level">Tipo de esforço físico no dia a dia:</label>
+          <select id="activity-level">
+            <option value="sedentary">Sedentário</option>
+            <option value="lightly-active">Levemente ativo</option>
+            <option value="moderately-active">Moderadamente ativo</option>
+            <option value="very-active">Muito ativo</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="weekly-hours">Horas semanais de atividades físicas:</label>
+          <input type="number" id="weekly-hours" required>
+        </div>
+        <button type="submit">Calcular</button>
+      </form>
+    </div>
+    <div id="result-container">
+      <h2>Gasto energético diário:</h2>
+      <p id="calorie-result"></p>
+      <h2>Quantidade ideal de calorias para ganhar peso:</h2>
+      <p id="calorie-goal"></p>
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>
