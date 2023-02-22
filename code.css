@@ -3,7 +3,7 @@
   }
   /* Define a imagem de fundo padrão para telas maiores */
 body {
-  background-image: url("imagem-padrao.jpg");
+  background-image: url("background.png");
   background-size: cover;
 }
 
@@ -14,14 +14,14 @@ body {
 body {
   background-image: url("/* Define a imagem de fundo padrão para telas maiores */
 body {
-  background-image: url("imagem-padrao.jpg");
+  background-image: url("background.png");
   background-size: cover;
 }
 
 /* Define a imagem de fundo para telas de celular */
 @media only screen and (max-width: 767px) {
   body {
-    background-image: url("imagem-celular.jpg");
+    background-image: url("background.png");
     background-size: 1792px 828px;
   }
 }
@@ -32,7 +32,7 @@ body {
 /* Define a imagem de fundo para telas de celular */
 @media only screen and (max-width: 767px) {
   body {
-    background-image: url("imagem-celular.jpg");
+    background-image: url("background.png");
     background-size: 1792px 828px;
   }
 }
