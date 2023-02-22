@@ -2,12 +2,19 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-image: url("background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   font-family: Arial, sans-serif;
+  height: 100%;
   margin: 0;
   padding: 0;
 }
@@ -73,5 +80,6 @@ button {
     background-repeat: no-repeat;
   }
 }
+
 
 
